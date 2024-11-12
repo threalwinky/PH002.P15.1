@@ -1,0 +1,19 @@
+|bttl1
+Sum <= func:inst.Sum
+A => func:inst.A
+B => func:inst.B
+C => func:inst.Cin
+Cout <= func:inst.Cout
+
+
+|bttl1|func:inst
+Sum <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+Cin => inst1.IN1
+Cin => inst3.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

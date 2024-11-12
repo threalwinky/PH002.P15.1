@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/Quartus/lab24/func.bdf
+source_file = 1, D:/Quartus/lab24/bttl1.bdf
+source_file = 1, D:/Quartus/lab24/Waveform.vwf
+source_file = 1, D:/Quartus/lab24/Waveform1.vwf
+source_file = 1, D:/Quartus/lab24/db/bttl1.cbx.xml
+design_name = bttl1
+instance = comp, \A~I , A, bttl1, 1
+instance = comp, \B~I , B, bttl1, 1
+instance = comp, \C~I , C, bttl1, 1
+instance = comp, \inst|inst1~0 , inst|inst1~0, bttl1, 1
+instance = comp, \inst|inst4~0 , inst|inst4~0, bttl1, 1
+instance = comp, \Sum~I , Sum, bttl1, 1
+instance = comp, \Cout~I , Cout, bttl1, 1
