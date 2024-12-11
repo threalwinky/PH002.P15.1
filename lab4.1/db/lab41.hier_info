@@ -1,0 +1,92 @@
+|lab41
+gt <= comp4:inst30.gt
+a0 => comp4:inst30.a0
+b0 => comp4:inst30.b0
+a1 => comp4:inst30.a1
+b1 => comp4:inst30.b1
+a2 => comp4:inst30.a2
+b2 => comp4:inst30.b2
+a3 => comp4:inst30.a3
+b3 => comp4:inst30.b3
+eq <= comp4:inst30.eq
+lt <= comp4:inst30.lt
+
+
+|lab41|comp4:inst30
+gt <= gt:inst20.gt
+a0 => gt:inst20.a0
+a0 => eq:inst21.a0
+a0 => gt:inst22.a0
+b0 => gt:inst20.b0
+b0 => eq:inst21.b0
+b0 => gt:inst22.b0
+a1 => gt:inst20.a1
+a1 => eq:inst21.a1
+a1 => gt:inst22.a1
+b1 => gt:inst20.b1
+b1 => eq:inst21.b1
+b1 => gt:inst22.b1
+a2 => gt:inst20.a2
+a2 => eq:inst21.a2
+a2 => gt:inst22.a2
+b2 => gt:inst20.b2
+b2 => eq:inst21.b2
+b2 => gt:inst22.b2
+a3 => gt:inst20.a3
+a3 => eq:inst21.a3
+a3 => gt:inst22.a3
+b3 => gt:inst20.b3
+b3 => eq:inst21.b3
+b3 => gt:inst22.b3
+eq <= eq:inst21.eq
+lt <= lt.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab41|comp4:inst30|gt:inst20
+gt <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a0 => inst1.IN0
+a0 => inst5.IN1
+b0 => inst8.IN0
+b0 => inst5.IN0
+a2 => inst3.IN0
+a2 => inst7.IN1
+b2 => inst11.IN0
+b2 => inst7.IN0
+b1 => inst6.IN0
+b1 => inst9.IN0
+a1 => inst6.IN1
+a1 => inst2.IN0
+b3 => inst10.IN0
+a3 => inst4.IN2
+
+
+|lab41|comp4:inst30|eq:inst21
+eq <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a0 => inst.IN0
+b0 => inst.IN1
+a1 => inst1.IN0
+b1 => inst1.IN1
+a2 => inst2.IN0
+b2 => inst2.IN1
+a3 => inst3.IN0
+b3 => inst3.IN1
+
+
+|lab41|comp4:inst30|gt:inst22
+gt <= inst.DB_MAX_OUTPUT_PORT_TYPE
+a0 => inst1.IN0
+a0 => inst5.IN1
+b0 => inst8.IN0
+b0 => inst5.IN0
+a2 => inst3.IN0
+a2 => inst7.IN1
+b2 => inst11.IN0
+b2 => inst7.IN0
+b1 => inst6.IN0
+b1 => inst9.IN0
+a1 => inst6.IN1
+a1 => inst2.IN0
+b3 => inst10.IN0
+a3 => inst4.IN2
+
+

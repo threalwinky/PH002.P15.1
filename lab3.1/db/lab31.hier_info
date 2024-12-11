@@ -1,0 +1,50 @@
+|lab31
+f <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+s0 => inst3.IN0
+s0 => inst4.IN0
+s1 => func:inst1.s1
+s1 => func:inst.s1
+s2 => func:inst1.s2
+s2 => func:inst.s2
+w4 => func:inst1.w0
+w5 => func:inst1.w1
+w6 => func:inst1.w2
+w7 => func:inst1.w3
+w0 => func:inst.w0
+w1 => func:inst.w1
+w2 => func:inst.w2
+w3 => func:inst.w3
+
+
+|lab31|func:inst1
+f <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+w1 => inst1.IN0
+s1 => inst8.IN0
+s1 => inst7.IN0
+s1 => inst3.IN1
+s1 => inst2.IN1
+s2 => inst1.IN2
+s2 => inst9.IN0
+s2 => inst3.IN2
+s2 => inst10.IN0
+w0 => inst.IN0
+w3 => inst3.IN0
+w2 => inst2.IN0
+
+
+|lab31|func:inst
+f <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+w1 => inst1.IN0
+s1 => inst8.IN0
+s1 => inst7.IN0
+s1 => inst3.IN1
+s1 => inst2.IN1
+s2 => inst1.IN2
+s2 => inst9.IN0
+s2 => inst3.IN2
+s2 => inst10.IN0
+w0 => inst.IN0
+w3 => inst3.IN0
+w2 => inst2.IN0
+
+

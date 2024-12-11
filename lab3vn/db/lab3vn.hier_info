@@ -1,0 +1,177 @@
+|lab3vn
+O1 <= func:inst.O1
+I1 => func:inst.I1
+I2 => func:inst.I2
+I3 => func:inst.I3
+I4 => func:inst.I4
+O2 <= func:inst.O2
+O4 <= func:inst.O4
+O5 <= func:inst.O5
+O6 <= func:inst.O6
+O7 <= func:inst.O7
+O3 <= func:inst.O3
+
+
+|lab3vn|func:inst
+O1 <= funca:inst15.pin_name9
+I1 => funca:inst15.I1
+I1 => inst.IN0
+I1 => funcb:inst28.I1
+I1 => funcc:inst29.I1
+I1 => funcd:inst30.I5
+I1 => funce:inst34.I5
+I1 => funcf:inst35.I5
+I1 => funcg:inst33.I5
+I2 => funca:inst15.I2
+I2 => inst7.IN0
+I2 => funcb:inst28.I2
+I2 => funcc:inst29.I2
+I2 => funcd:inst30.I6
+I2 => funce:inst34.I6
+I2 => funcf:inst35.I6
+I2 => funcg:inst33.I6
+I3 => funca:inst15.I3
+I3 => inst8.IN0
+I3 => funcb:inst28.I3
+I3 => funcc:inst29.I3
+I3 => funcd:inst30.I7
+I3 => funce:inst34.I7
+I3 => funcf:inst35.I7
+I3 => funcg:inst33.I7
+I4 => funca:inst15.I4
+I4 => inst9.IN0
+I4 => funcb:inst28.I4
+I4 => funcc:inst29.I4
+I4 => funcd:inst30.I8
+I4 => funce:inst34.I8
+I4 => funcf:inst35.I8
+I4 => funcg:inst33.I8
+O2 <= funcb:inst28.pin_name9
+O3 <= funcc:inst29.pin_name9
+O4 <= funcd:inst30.pin_name9
+O5 <= funce:inst34.pin_name9
+O6 <= funcf:inst35.pin_name9
+O7 <= funcg:inst33.pin_name9
+
+
+|lab3vn|func:inst|funca:inst15
+pin_name9 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+I2b => inst10.IN0
+I2b => inst15.IN1
+I4b => inst10.IN1
+I4b => inst12.IN1
+I1 => inst12.IN0
+I1 => inst15.IN0
+I3 => inst11.IN0
+I3 => inst13.IN1
+I1b => inst11.IN1
+I1b => inst14.IN0
+I2 => inst13.IN0
+I2 => inst14.IN1
+I4 => inst14.IN2
+I3b => inst15.IN2
+
+
+|lab3vn|func:inst|funcb:inst28
+pin_name9 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I2b => inst1.IN0
+I2b => inst2.IN0
+I4b => inst1.IN1
+I4b => inst3.IN2
+I1b => inst3.IN0
+I1b => inst2.IN1
+I1b => inst4.IN0
+I3b => inst3.IN1
+I3b => inst5.IN1
+I1 => inst5.IN0
+I4 => inst5.IN2
+I4 => inst4.IN2
+I3 => inst4.IN1
+I2 => ~NO_FANOUT~
+
+
+|lab3vn|func:inst|funcc:inst29
+pin_name9 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I1b => inst1.IN0
+I1b => inst5.IN0
+I1b => inst4.IN0
+I2 => inst1.IN1
+I3b => inst3.IN0
+I3b => inst4.IN1
+I4 => inst3.IN1
+I4 => inst5.IN1
+I1 => inst2.IN0
+I2b => inst2.IN1
+I3 => ~NO_FANOUT~
+I4b => ~NO_FANOUT~
+
+
+|lab3vn|func:inst|funcd:inst30
+pin_name9 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I2b9 => inst1.IN0
+I2b9 => inst3.IN1
+I2b9 => inst5.IN0
+I7 => inst1.IN1
+I8 => inst1.IN2
+I8 => inst4.IN2
+I8 => inst6.IN2
+I1b8 => inst3.IN0
+I1b8 => inst4.IN0
+I4b11 => inst3.IN2
+I4b11 => inst2.IN2
+I4b11 => inst5.IN2
+I5 => inst2.IN0
+I6 => inst2.IN1
+I6 => inst4.IN1
+I6 => inst6.IN0
+I3b10 => inst5.IN1
+I3b10 => inst6.IN1
+
+
+|lab3vn|func:inst|funce:inst34
+pin_name9 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I1b8 => inst3.IN0
+I4b11 => inst3.IN1
+I4b11 => inst4.IN1
+I5 => inst5.IN0
+I5 => inst6.IN0
+I7 => inst5.IN1
+I7 => inst4.IN0
+I6 => inst6.IN1
+I2b9 => ~NO_FANOUT~
+I3b10 => ~NO_FANOUT~
+I8 => ~NO_FANOUT~
+
+
+|lab3vn|func:inst|funcf:inst35
+pin_name9 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I6 => inst2.IN0
+I6 => inst5.IN1
+I4b11 => inst2.IN1
+I4b11 => inst1.IN1
+I5 => inst4.IN0
+I5 => inst3.IN0
+I7 => inst4.IN1
+I2b9 => inst3.IN1
+I3b10 => inst1.IN0
+I3b10 => inst5.IN2
+I1b8 => inst5.IN0
+I8 => ~NO_FANOUT~
+
+
+|lab3vn|func:inst|funcg:inst33
+pin_name9 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I2b9 => inst1.IN0
+I7 => inst1.IN1
+I7 => inst3.IN0
+I7 => inst2.IN1
+I4b11 => inst3.IN1
+I4b11 => inst4.IN1
+I5 => inst2.IN0
+I5 => inst4.IN0
+I1b8 => inst5.IN0
+I6 => inst5.IN1
+I3b10 => inst5.IN2
+I8 => ~NO_FANOUT~
+
+
